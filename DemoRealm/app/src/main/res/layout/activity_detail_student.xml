@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dp_10"
+    tools:context=".view.DetailStudentActivity">
+
+    <TextView
+        android:background="@drawable/custom_student_item"
+        android:layout_marginTop="@dimen/dp_10"
+        android:id="@+id/tv_name"
+        style="@style/TextCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:background="@drawable/custom_student_item"
+        android:layout_marginTop="@dimen/dp_10"
+        android:id="@+id/tv_id_student"
+        style="@style/TextCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:background="@drawable/custom_student_item"
+        android:layout_marginTop="@dimen/dp_10"
+        android:id="@+id/tv_age"
+        style="@style/TextCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:background="@drawable/custom_student_item"
+        android:layout_marginTop="@dimen/dp_10"
+        android:id="@+id/tv_class_room"
+        style="@style/TextCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:background="@drawable/custom_student_item"
+        android:layout_marginTop="@dimen/dp_10"
+        android:id="@+id/tv_course"
+        style="@style/TextCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:background="@drawable/custom_student_item"
+        android:layout_marginTop="@dimen/dp_10"
+        android:id="@+id/tv_email"
+        style="@style/TextCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:background="@drawable/custom_student_item"
+        android:layout_marginTop="@dimen/dp_10"
+        android:id="@+id/tv_phone_number"
+        style="@style/TextCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

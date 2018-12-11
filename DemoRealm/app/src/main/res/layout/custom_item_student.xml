@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/item_student"
+    android:background="@drawable/custom_student_item"
+    android:layout_marginBottom="@dimen/dp_16"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_id_student"
+        style="@style/TextCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        style="@style/TextCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
